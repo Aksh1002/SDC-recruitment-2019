@@ -1,7 +1,11 @@
 {% include 'pagestructure/header.html' %}
+<section id='box'>
+
     <ul>
       {%for todo in todos%}
     <li><a href="/todos/details/{{todo.id}}">{{todo.title}}</a>: {{todo.text}}</li>
       {% endfor %}
       </ul>
+</section>
+
 {% include 'pagestructure/footer.html' %}

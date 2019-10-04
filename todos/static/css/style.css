@@ -1,3 +1,30 @@
 a{
   color: green;
 }
+header{
+  margin-top: 0px;
+  padding: 0px;
+  background:#D2B6B6;
+}
+header h1{
+  text-align: center;
+}
+header a{
+  font-size: 40px;
+  text-decoration: none;
+  color:black;
+}
+#box{
+box-decoration-break: slice;
+  background: #E9E456;
+
+
+
+}
+
+body{
+background:#D2B6B6;
+margin:0px;
+padding: 0px;
+
+}
