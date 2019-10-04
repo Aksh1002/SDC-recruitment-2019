@@ -1,0 +1,10 @@
+{% include 'pagestructure/header.html' %}
+
+<a href="/todos">go back</a>
+
+<h3>{{todo.title}} </h3>
+<hr>
+<p> {{todo.text}}</p>
+<br>
+<b>created at {{todo.created_at}} </b>
+{% include 'pagestructure/footer.html' %}
